@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#1d2b4f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Badminton Paris — Créneaux Sport Proximité</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -35,7 +38,12 @@
 
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-  html, body {
+  html {
+    height: 100%;
+    margin: 0;
+    background: var(--navy);
+  }
+  body {
     margin: 0; padding: 0; height: 100%;
     font-family: "Space Mono", "SF Mono", Menlo, monospace;
     background: var(--paper);
